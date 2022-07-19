@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    --black:#242f51;
+    --pink:#f55767;
+    --blue:#2563ff;
+    --green:#40975f;
+    --gray:#616368;
+}
+body{
+    position: relative;
+}
+.applab{   
+    padding: 50px;
+    height: 600px;
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#app{
+    color: orange;
+}
+h1{
+    font-size: 30px;
+    display: inline;
+}
+#link{
+    padding-left: 50px;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    }
+button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    margin-left: 50px;
+    height: 60px;
+
+}
+.button--primary{
+    background: var(--blue);
+    color: white;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 300px;
+}
+p{
+    padding: 30px 150px;
+}
+#one{
+    display: inline-block;
+    border-radius: 30px;
+    background:grey;
+    font-size: 20px;
+    padding: 10px 45px;
+    margin-left: 150px;
+    margin-top:300px;
+}
+#best{
+    font-size: 60px;
+    color: var(--black);
+}
+#increase{
+    font-size: 20px;
+    color: var(--gray);
+}
+.second{
+    margin-left: 150px;
+}
+#watch{
+    color:var(--blue);
+    text-decoration: none;
+    margin-left: 20px;
+}
+.phone-one{
+    width: 350px;
+    height: 750px;
+    border-radius: 50px;
+    padding-top: 100px;
+}
+.two{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 900px;
+}
+#trust{
+    text-align: center;
+    color: var(--black);
+    font-size: 20px;
+    padding-top: 100px;
+}
+.companies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.phone-features{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    align-items: center;
+}
+.phone2{
+    width: 450px;
+    height: 620px;
+    background: url("./images/background-phone2.png") no-repeat center center/contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-two{
+    width: 260px;
+    height: 500px;
+    border-radius: 45px;
+    z-index: 100px;
+    transform: rotate(-15deg);
+
+}
+.awesome{
+    color: var(--black);
+    font-size: 60px;
+    padding-bottom: 2px;
+}
+.random{
+    color: var(--gray);
+    padding-bottom: 100px;
+}
+.performance {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.features div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:var(--gray);
+}
+.get:nth-child(0){
+    font-size: 25px;
+}
+.get{
+    margin-right: 150px;
+}
+#f-s{
+    color: var(--pink);
+    font-size: 25px;
+    padding-bottom: 1px;
+}
+#typing{
+    color: var(--blue);
+    font-size: 25px;
+    padding-bottom: 1px;
+    padding-top: 80px;
+}
+#v-e{
+    color: var(--green);
+        font-size: 25px;
+        padding-bottom: 1px;
+        padding-top: 80px;
+}
+#fpv{
+    height: 70px;
+    width: 70px;
+    margin-top: 80px;
+    margin-right:-100px;
+}
+.vr {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#smart {
+    color: var(--black);
+    font-size: 40px;
+}
+.line{
+    width: 2px;
+    height: 250px;
+    background: var(--gray);
+}
+#rise {
+    color: var(--gray);
+    padding-top: 80px;
+}
+.auto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+#anb{
+    margin-left: 145px;
+}
+
+
+.pbg{
+    color: var(--gray);
+}
+#a-p{
+    color: var(--pink);
+    font-size: 25px;
+    padding-bottom: 2px;
+}
+#n-e{
+    color: var(--blue);
+    font-size: 25px;
+}
+#brm{
+    color:var(--green);
+    font-size: 25px;
+    padding-bottom: 2px;
+}
+.three{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 3400px;
+}
+.photo-design{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+#man{
+    width: 800px;
+    height: 700px;
+}
+.integration{
+    padding-left: 2px;
+}
+#design{
+    font-size: 35px;
+    color: var(--black);
+}
+#device{
+    color: var(--gray);
+    padding-top: 2px;
+}
+.third{
+    margin-left: 150px;
+}
+#why{
+    color: var(--black);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 150px;
+}
+#mobile{
+    color:var(--gray);
+    text-align: center;
+}
+.OurApp{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    align-items: center;
+}
+#six{
+    width: 90px;
+    height: 90px;
+    margin-left: 180px;
+}
+#same{
+    color: var(--black);
+    font-size: 25px;
+    padding-top:2px;
+    padding-bottom: 2px;
+
+}
+#test{
+    color: var(--gray);
+    padding-top: 10px;
+}
+footer{
+    height: 500px;
+    background-color: var(--black);
+    margin-top: 5000px;
+}
+#lab{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.last{
+    display: flex;
+    gap: 40px;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+#links{
+    display: inline;
+    color: white;   
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.icons{
+    display: flex;
+    gap: 40px;
+    margin-left: 600px;
+}
+#copyright{
+    color: var(--gray);
+    text-align: center;
+    padding-top: 50px;
+}
